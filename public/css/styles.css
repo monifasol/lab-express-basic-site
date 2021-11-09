@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: cadetblue;
+    margin-top: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+}
+
+nav a {
+    color: cadetblue;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.main-pic {
+    width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery img {
+    width: 25%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.works {
+    display: flex;
+}
+.work {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 30%;
+}
+.work .title {
+    font-weight: bold;
+}
+.work .subtitle {
+    font-weight: grey;
+}
+.work img {
+    width: 100%;
+}
+
+
