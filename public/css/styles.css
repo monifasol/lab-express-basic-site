@@ -5,6 +5,9 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    line-height: 2em;
+    width: 80%;
+    margin: 0px auto;
 }
 
 h1 {
@@ -26,17 +29,20 @@ nav a {
 }
 
 .main-pic {
-    width: 500px;
-    margin: 20px auto;
+    width: 600px;
+    margin: 50px auto;
     display: block;
+    border-radius: 20px;
 }
 
 .gallery {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gallery img {
-    width: 25%;
+    width: 45%;
     margin: 20px;
     border-radius: 10px;
 }
@@ -44,18 +50,22 @@ nav a {
 .works {
     display: flex;
 }
+
 .work {
     display: flex;
     flex-direction: column;
     margin: 20px;
     width: 30%;
 }
+
 .work .title {
     font-weight: bold;
 }
+
 .work .subtitle {
     font-weight: grey;
 }
+
 .work img {
     width: 100%;
 }
