@@ -6,10 +6,6 @@ const app = express()
 app.use(express.static(path.join(__dirname, "")))
 app.use(express.static(path.join(__dirname, "public")))
 
-app.all("/home",  (request, response)=> {
-    response.sendFile(path.join(__dirname, "views", "home.html"))
-})
-
 app.all("/about",  (request, response)=> {
     response.sendFile(path.join(__dirname, "views", "about.html"))
 })
